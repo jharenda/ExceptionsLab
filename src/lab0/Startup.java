@@ -17,7 +17,13 @@ try {
 }catch (IllegalArgumentException e){
     System.out.println("error");
 }
-    
+      Employee   emp2  = new Employee("Jim","Smith","33",22);
+    try {
+        emp2.setDaysVacation(-14);
+       }catch (IllegalArgumentException e){
+    System.out.println("error");
+}
+
      
     }
     }
